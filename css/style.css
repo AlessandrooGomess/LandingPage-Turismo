@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#page {
+    max-width: 1450px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+main {
+    border: 1px solid red;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;    /* para imagens responsivas */
+  margin: 0 auto;      /* centraliza a imagem */
+}
+
+#busan span, h1{
+    margin-left: 6rem;
+}
+
+#discover span, h2, p{
+    margin-left: 6rem;
+}
+
+span {
+    text-transform: uppercase;
+    color: red;
+}
+
+#busan p{
+    text-align: center;
+    margin-left: 4.8rem;
+}
+
+.cx-text {    max-width: 1100px;
+    margin-left: 2.4rem;
+    margin-top: 1.6rem;
+}
