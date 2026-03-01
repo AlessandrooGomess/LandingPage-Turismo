@@ -6,27 +6,37 @@
 
 #page {
     max-width: 1450px;
-    border: 1px solid red;
+    padding: 60px 0;
     margin: 0 auto;
 }
 
 main {
-    border: 1px solid red;
     max-width: 1300px;
     margin: 0 auto;
 }
 
 img {
-  display: block;
-  max-width: 100%;    /* para imagens responsivas */
-  margin: 0 auto;      /* centraliza a imagem */
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
-#busan span, h1{
+#busan span,
+h1 {
+    margin-bottom: 2rem;
     margin-left: 6rem;
 }
 
-#discover span, h2, p{
+hr {
+    max-width: 1100px;
+    margin-left: 6rem;
+    background-color: #888585;
+}
+
+#discover span,
+h3,
+h2,
+p {
     margin-left: 6rem;
 }
 
@@ -35,12 +45,88 @@ span {
     color: red;
 }
 
-#busan p{
+#busan p {
     text-align: center;
     margin-left: 4.8rem;
+    font-style: italic;
 }
 
-.cx-text {    max-width: 1100px;
+.cx-text {
+    max-width: 1100px;
     margin-left: 2.4rem;
     margin-top: 1.6rem;
+}
+
+#discover p {
+    max-width: 1100px;
+    margin-bottom: 2rem;
+    font-size: 18px;
+}
+
+#discover h3 {
+    margin-top: 1.8rem;
+    font-size: 28px;
+}
+
+#discover li {
+    margin-bottom: 3rem;
+}
+
+h5 {
+    margin-left: 6rem;
+}
+
+li {
+    margin-left: 7rem;
+    color: #0C51A7;
+}
+
+#beomeo-sa h3 {
+    margin-top: 1.8rem;
+    font-size: 28px;
+}
+
+#beomeo-sa p {
+    max-width: 1100px;
+    margin-bottom: 2rem;
+    font-size: 18px;
+}
+
+#beomeo-sa li {
+    margin-bottom: 3rem;
+}
+
+#yongdusan h3 {
+    margin-top: 1.8rem;
+    font-size: 28px;
+}
+
+#yongdusan p {
+    max-width: 1100px;
+    margin-bottom: 2rem;
+    font-size: 18px;
+}
+
+.li-color1 {
+    color: #591B98;
+    font-weight: bold;
+}
+
+.li-color2 {
+    color: #E5245E;
+    font-weight: bold;
+}
+
+.li-color3 {
+    color: #E95E10;
+    font-weight: bold;
+}
+
+.final-txt {
+    margin-top: 3rem;
+}
+
+footer {
+    margin-top: 5rem;
+    text-align: center;
 }
